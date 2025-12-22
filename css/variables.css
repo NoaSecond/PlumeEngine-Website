@@ -1,0 +1,43 @@
+:root {
+    /* Colors */
+    --color-bg: #030304;
+    --color-surface: #0f0f11;
+    --color-surface-hover: #1a1a1e;
+    --color-text-main: #ffffff;
+    --color-text-muted: #a1a1aa;
+    
+    /* Brand Colors - Neon Cyan/Purple Gradient vibe */
+    --color-primary: #00f2ff;
+    --color-primary-dim: #00c2cc;
+    --color-secondary: #7000ff;
+    --color-accent: #ff0055;
+
+    /* Gradients */
+    --gradient-main: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    --gradient-glow: radial-gradient(circle at center, rgba(0, 242, 255, 0.15) 0%, rgba(3, 3, 4, 0) 70%);
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+
+    /* Typography */
+    --font-main: 'Outfit', 'Inter', system-ui, sans-serif;
+    --font-heading: 'Outfit', 'Inter', system-ui, sans-serif;
+
+    /* Borders & Glass */
+    --border-radius-sm: 8px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 24px;
+    --border-thin: 1px solid rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.05);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    --backdrop-blur: blur(12px);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
