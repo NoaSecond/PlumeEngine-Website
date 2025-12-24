@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-bg);
     color: var(--color-text-main);
@@ -136,8 +140,10 @@ header.scrolled {
     transition: var(--transition-fast);
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a.active {
     color: var(--color-text-main);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 /* Hero Section */
